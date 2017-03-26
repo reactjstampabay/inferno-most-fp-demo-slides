@@ -1,0 +1,20 @@
+{
+  "plugins": ["react"],
+
+  "extends": ["standard", "standard-react"],
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "rules": {
+    // Allow dangling commas for better clarity in diffs
+    "comma-dangle": [2, "always-multiline"],
+
+    // Extra React rules not provided by standard-react
+    "react/react-in-jsx-scope": 2,
+    "jsx-quotes": [2, "prefer-single"]
+  }
+}

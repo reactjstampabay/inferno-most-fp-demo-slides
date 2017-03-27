@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  color: #03effc;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace!important;
+    font-size: 0.90em!important;
+}

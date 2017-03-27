@@ -299,6 +299,7 @@ export default class Presentation extends React.Component {
         <Slide transition={['fade']} bgColor='tertiary' textColor='primary'>
           <Heading textColor='secondary' fit caps>Alright, enough!</Heading>
           <Heading textColor='primary' fit caps>Let's look at the code.</Heading>
+          <Text><a href='https://github.com/joshburgess/inferno-most-fp-demo'>https://github.com/joshburgess/inferno-most-fp-demo</a></Text>
         </Slide>
       </Deck>
     )
